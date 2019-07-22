@@ -76,9 +76,11 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-1">
-        <h1>
-            LOGO
-        </h1>
+        <?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a>
+      <?php endif; ?>
         </div>
         <div class="col-lg-7">
             <nav class="navbar navbar-default" role="navigation">
@@ -114,4 +116,8 @@
             搜索 | 购物车 | 登录
         </div> 
     </div>
+</div>
+
+<div class="banner">
+    <?php print render($page['banner']); ?>
 </div>

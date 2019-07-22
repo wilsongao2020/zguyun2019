@@ -10,4 +10,7 @@ stylesheets[all][] = css/style.css
 scripts[] = js/jquery-migrate-1.2.1.js
 scripts[] = js/bootstrap.min.js
 
-settings[garland_width] = fluid
+regions[header] = Header 
+regions[banner] = Banner
+regions[content] = Content
+regions[footer] = Footer

@@ -1,0 +1,13 @@
+name = Zguyun 
+description = 醉古韵电商网站模版. 
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+
+scripts[] = js/jquery-migrate-1.2.1.js
+scripts[] = js/bootstrap.min.js
+
+settings[garland_width] = fluid
